@@ -81,7 +81,7 @@ To get a really simple example I'll create an api for storing notes. In a real w
      * Implementation of hook_uninstall().
      */
     function noteresource_uninstall() {
-      drupal_install_schema('noteresource');
+      drupal_uninstall_schema('noteresource');
     }
 
     /**

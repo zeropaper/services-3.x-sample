@@ -12,7 +12,7 @@ function noteresource_install() {
  * Implementation of hook_uninstall().
  */
 function noteresource_uninstall() {
-  drupal_install_schema('noteresource');
+  drupal_uninstall_schema('noteresource');
 }
 
 /**
